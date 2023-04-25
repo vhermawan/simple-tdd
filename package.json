@@ -1,0 +1,27 @@
+{
+  "name": "learn-tdd-in-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --watch",
+    "cypress": "cypress open",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "14.2.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "jest-environment-jsdom": "28.1.1",
+    "next": "13.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "jest": "28.1.1"
+  }
+}
